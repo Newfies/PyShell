@@ -16,11 +16,11 @@ root.title("🐍🐚")
 root.geometry("200x100")  # Set window size
 
 # Define buttons for different batch files
-btn1 = tk.Button(root, text="Run Script1.bat", command=lambda: run_batch('Script1.bat'))
+btn1 = tk.Button(root, text="Run Soft Refresh", command=lambda: run_batch('SRefresh.bat'))
 btn1.pack(pady=10)
 
-btn2 = tk.Button(root, text="Run Script2.bat", command=lambda: run_batch('Script2.bat'))
-btn2.pack(pady=10)
+# btn2 = tk.Button(root, text="Run Script2.bat", command=lambda: run_batch('Script2.bat'))
+# btn2.pack(pady=10)
 
 # Start the GUI loop
 root.mainloop()
